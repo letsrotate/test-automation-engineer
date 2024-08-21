@@ -10,7 +10,7 @@ import { Product } from '../products.interface';
 import { of } from 'rxjs';
 import { By } from '@angular/platform-browser';
 
-fdescribe('ListComponent', () => {
+describe('ListComponent', () => {
   let component: ListComponent;
   let fixture: ComponentFixture<ListComponent>;
   let productServiceSpy: jasmine.SpyObj<ProductsService>;

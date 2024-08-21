@@ -9,7 +9,7 @@ import { HttpClient, HttpErrorResponse } from '@angular/common/http';
 import { Product } from './products.interface';
 import { Observable, of, throwError } from 'rxjs';
 
-fdescribe('ProductsService', () => {
+describe('ProductsService', () => {
   let productService: ProductsService;
   let httpClientSpy: jasmine.SpyObj<HttpClient>;
   httpClientSpy = jasmine.createSpyObj('HttpClient', ['get', 'post', 'put', 'delete']);
